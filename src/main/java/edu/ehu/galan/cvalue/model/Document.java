@@ -36,7 +36,6 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CodingErrorAction;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import org.apache.commons.io.FileUtils;
@@ -107,7 +106,7 @@ public class Document {
     /**
      * @param tokenList the tokenList to set
      */
-    public void setTokenList(List<LinkedList<Token>> tokenList) {
+    public void List(List<LinkedList<Token>> tokenList) {
         this.tokenList = tokenList;
     }
 

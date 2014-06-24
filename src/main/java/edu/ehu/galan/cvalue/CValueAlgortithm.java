@@ -40,6 +40,9 @@ public class CValueAlgortithm extends AbstractAlgorithm {
     private transient ProcessLinguisticFilters filters = null;
     private transient List<Term> termList; //gson 
 
+    /**
+     *
+     */
     public CValueAlgortithm() {
         super(true, "CValue");
         filters = new ProcessLinguisticFilters();
@@ -50,7 +53,19 @@ public class CValueAlgortithm extends AbstractAlgorithm {
     public void init(Document pDoc, String pPropsDir) {
         setDoc(pDoc);
     }
+    
+    /**
+     * Sets the document to be analyzed
+     * @param pDoc
+     */
+    public void init(Document pDoc) {
+        setDoc(pDoc);
+    }
 
+    /**
+     *
+     * @param pFilter
+     */
     public void addNewProcessingFilter(ILinguisticFilter pFilter) {
         filters.addFilter(pFilter);
     }
