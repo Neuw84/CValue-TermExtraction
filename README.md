@@ -14,7 +14,7 @@ This implementation requires a POS tagger to be used in order to work. For examp
 
 http://cogcomp.cs.illinois.edu/page/software_view/POS
 
-For Spanish it has been tested Freeling. 
+For Spanish it has been tested using Freeling. 
 
 http://nlp.lsi.upc.edu/freeling/
 
