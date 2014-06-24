@@ -1,7 +1,7 @@
 CValue-TermExtraction
 =====================
 
-A free Java implementation of the C-Value algorithm based on this paper:
+A free Java 8 (sorry but at least you will need to upgrade your JDK) implementation of the C-Value algorithm based on this paper:
 
 http://personalpages.manchester.ac.uk/staff/sophia.ananiadou/ijodl2000.pdf
 
@@ -20,7 +20,7 @@ http://nlp.lsi.upc.edu/freeling/
 
 The implementation has been tested with English and works well, for documents that contains a lot of noise (like the extracted via OCR recognition) there are some fixes but the Filters for english should change to use Regular Expressions like the Spanish one in order to avoid problems with the Java Stack (although 26,000 papers have been tested with the current implementation). 
 
-License: GPL V2 
+License: GPL V2
 
 TODO: 
 
