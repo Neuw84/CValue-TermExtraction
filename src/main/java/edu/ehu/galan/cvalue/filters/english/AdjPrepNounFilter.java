@@ -159,12 +159,12 @@ public class AdjPrepNounFilter implements ILinguisticFilter {
         }
     }
     
-     public static void main(String[] args) {
-         LinkedList<Token> tokenList=new LinkedList<>();
-         tokenList.add(new Token("hello", "NN"));
-         tokenList.add(new Token("hello", "NN"));
-         new AdjPrepNounFilter().getCandidates(tokenList);
-         
-    }
+//     public static void main(String[] args) {
+//         LinkedList<Token> tokenList=new LinkedList<>();
+//         tokenList.add(new Token("hello", "NN"));
+//         tokenList.add(new Token("hello", "NN"));
+//         new AdjPrepNounFilter().getCandidates(tokenList);
+//         
+//    }
 
 }

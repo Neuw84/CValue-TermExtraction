@@ -112,11 +112,11 @@ public class NounFilter implements ILinguisticFilter {
 
     }
 
-    public static void main(String[] args) {
-        LinkedList<Token> tokenList = new LinkedList<>();
-        tokenList.add(new Token("hello", "NN"));
-        tokenList.add(new Token("hello", "NN"));
-        new NounFilter().getCandidates(tokenList);
-
-    }
+//    public static void main(String[] args) {
+//        LinkedList<Token> tokenList = new LinkedList<>();
+//        tokenList.add(new Token("hello", "NN"));
+//        tokenList.add(new Token("hello", "NN"));
+//        new NounFilter().getCandidates(tokenList);
+//
+//    }
 }
