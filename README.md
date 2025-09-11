@@ -1,9 +1,9 @@
 CValue-TermExtraction
 =====================
 
-A free Java 8 implementation of the C-Value algorithm based on this paper:
+A free Java 8 implementation of the C-Value algorithm based on this [paper](http://personalpages.manchester.ac.uk/staff/sophia.ananiadou/ijodl2000.pdf
+):
 
-http://personalpages.manchester.ac.uk/staff/sophia.ananiadou/ijodl2000.pdf
 
 The CValue is an algorithm for keyphrase extraction that has good results without any trainning combining statistical measures with 
 POS information. 
